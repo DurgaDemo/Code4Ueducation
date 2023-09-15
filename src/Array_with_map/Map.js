@@ -45,7 +45,9 @@ function Map() {
         {products.map((val) => {
           return (
             <>
-              
+              <li>{val.id}</li>
+              <li>{val.name}</li>
+              <li>{val.price}</li>
             </>
           );
         })}
