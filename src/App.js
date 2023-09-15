@@ -13,11 +13,25 @@ import './App.css';
 // import Class from './state/Class'
    
 //  import Parent from './Props/Parent'
+  // import User from './Props/User'
+   
 
   //  import User from './Input_box_value/User'
-    // import User from './Hide_Show_Toggle/User'
+  // import User from './Hide_Show_Toggle/User'
 
-    import Form from './Form_Handling/Form'
+  // import Form from './Form_Handling/Form'
+
+  // import Constructor from './Life_Cycle_Methods/Constructor'
+  //  import Render from './Life_Cycle_Methods/Render'
+  // import ComponentDidMount from './Life_Cycle_Methods/ComponentDidMount'
+  //  import ComponentDidUpdate from './Life_Cycle_Methods/ComponentDidUpdate';
+    // import ComponentWillUnmount from './Life_Cycle_Methods/ComponentWillUnmount';
+
+    // import UseEffect from './Hooks/UseEffect'
+
+    // import User from './Styled_Components/User'
+
+    import Map from './Array_with_map/Map'
 
 function App() {
   return (
@@ -32,12 +46,26 @@ function App() {
      {/* <Class/> */}
 
      {/* <Parent/> */}
+    {/* <User/> */}
+ 
 
      {/* <User/> */}
 
      {/* <User/> */}
 
-     <Form/>
+     {/* <Form/> */}
+
+     {/* <Constructor/> */}
+     {/* <Render/> */}
+     {/* <ComponentDidMount/> */}
+     {/* <ComponentDidUpdate/> */}
+     {/* <ComponentWillUnmount/> */}
+
+     {/* <UseEffect/> */}
+
+     {/* <User/> */}
+
+     <Map/>
     </div>
   );
 }

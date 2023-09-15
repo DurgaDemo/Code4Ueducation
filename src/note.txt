@@ -1,0 +1,33 @@
+lifecycle Methods
+-----------------
+
+constructor
+-----------
+
+-> In React,the Constructor Method is part of the component's lifecycle and it's invocked 
+   during the Mounting Phase.
+
+-> The constructor Method is primarly  used for initializing the components state 
+   and binding event Handler.
+
+-> Constructor is called before the component is Mounted to the DOM.
+
+
+render()
+--------
+
+-> React renders HTML to the webpage by using a function called render.
+-> The purpose of the function is to display the spicified HTML code inside the spicified
+   HTML element.
+
+componentdidMount()
+-------------------
+
+-> in React componentDidMount method is a lifecycle method that is invocked immediately
+   after a component has been Mounted to the DOM.
+-> it is a good place to perform initialization, side effects,or intract with external APIs.
+
+
+
+
+
