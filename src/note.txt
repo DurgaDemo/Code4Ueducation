@@ -29,5 +29,26 @@ componentdidMount()
 
 
 
+PureComponent
+------------
+-> Basically purecomponent is used to increase the performane of application and
+   it is used in class Component .
+-> Byusing PureComponent we can stop unnessary rerendering of childComponent.
+
+memo
+-----
+-> In React ,memo is a higher order component (HOC) used to optimize functional components
+   by preventing unnecessary re-renders.
+-> we can use in function component.   
+
+
+Ref
+----
+-> in React,"ref" is a spacial attribute that can be used to access or reference a dom 
+   element or a React component instance.
+-> it provides a way to intract directly with DOM elements or components.
+-> we can use Ref in class component.   
+-> we can use useRef in function component 
+
 
 

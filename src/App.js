@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import UseRef from './Ref/UseRef';
 
 // import {Functional} from './components/Functional';
 // import Class from './components/Class'
@@ -31,8 +31,20 @@ import './App.css';
 
     // import User from './Styled_Components/User'
 
-    import Map from './Array_with_map/Map'
+    // import Map from './Array_with_map/Map'
 
+    // import Map1 from './Array_with_map/Map1'
+        
+    // import Parent from './Lifting_State_Up/Parent'
+
+    // import Parent from './Pure_Component/Parent'
+
+      //  import Memo from './memo/Memo'
+
+      // import UseMemo from './useMemo/UseMemo';
+
+      // import Ref from './Ref/Ref'
+  
 function App() {
   return (
     <div className="App">
@@ -65,7 +77,21 @@ function App() {
 
      {/* <User/> */}
 
-     <Map/>
+     {/* <Map/> */}
+
+     {/* <Map1/>       */}
+
+     {/* <Parent/> */}
+
+     {/* <Parent/> */}
+
+     {/* <Memo/> */}
+
+     {/* <UseMemo/> */}
+
+     {/* <Ref/> */}
+     
+     <UseRef/>
     </div>
   );
 }
